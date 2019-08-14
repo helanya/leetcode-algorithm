@@ -23,17 +23,17 @@
  */
 
 const lengthOfLongestSubstring = function(s) {
-   let size = 0
-   let str = ''
+   let size = 0 // 最大长度
+   let str = '' // 不重复的字符串
 
    for (let i = 0; i < s.length; i++) {
-    let index = str.indexOf(s[i])
+    let index = str.indexOf(s[i]) // 当前字符的索引
 
     if (index === -1) {
       str += s[i]
       size = Math.max(str.length, size)
     } else {
-      str = str.substr(index + 1) + s[i]
+      str = str.substr(index + 1) + s[i]  // 重复了，截取重复后面的str
     }
    }
 

@@ -12,3 +12,4 @@
 | 14 | 最长公共前缀  | [javascript](./solutions/014-最长公共前缀/longest-common-prefix.js.js) | Easy |
 | 20 | 有效的括号  | [javascript](./solutions/020-有效的括号/valid-parentheses.js) | Easy |
 | 21 | 合并两个有序链表  | [javascript](./solutions/021-合并两个有序链表/merge-two-lists.js) | Easy |
+| 26 | 删除排序数组中的重复项  | [javascript](./solutions/026-删除排序数组中的重复项/remove-duplicates.js) | Easy |
