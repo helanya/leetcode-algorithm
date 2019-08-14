@@ -14,3 +14,4 @@
 | 21 | 合并两个有序链表  | [javascript](./solutions/021-合并两个有序链表/merge-two-lists.js) | Easy |
 | 26 | 删除排序数组中的重复项  | [javascript](./solutions/026-删除排序数组中的重复项/remove-duplicates.js) | Easy |
 | 27 | 移除元素  | [javascript](./solutions/027-移除元素/remove-element.js) | Easy |
+| 28 | 实现 strStr() | [javascript](./solutions/028-实现strStr/str-str.js) | Easy |
