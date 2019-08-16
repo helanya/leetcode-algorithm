@@ -15,3 +15,4 @@
 | 26 | 删除排序数组中的重复项  | [javascript](./solutions/026-删除排序数组中的重复项/remove-duplicates.js) | Easy |
 | 27 | 移除元素  | [javascript](./solutions/027-移除元素/remove-element.js) | Easy |
 | 28 | 实现 strStr() | [javascript](./solutions/028-实现strStr/str-str.js) | Easy |
+| 35 | 搜索插入位置 | [javascript](./solutions/035-搜索插入位置/search-insert.js) | Easy |
