@@ -3,16 +3,14 @@
  * @return {number[]}
  */
 const plusOne = function (digits) {
-  for (let index = digits.length - 1; index >= 0; index--) {
-    if (digits[index] < 9) {
-      digits[index]++
+  const len = digits.length
+  for (let i = len - 1; i >= 0; i--) {
+    if (digits[i] < 9) {
+      digits[i]++
       return digits
     }
-    digits[index] = 0
+    digits[i] = 0
   }
 
-  if (digits[0] === 0) {
-    digits.unshift(1)
-  }
-  return digits
+  return [1, ...digits]
 }
