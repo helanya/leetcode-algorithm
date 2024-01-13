@@ -26,7 +26,7 @@ const convert = function (s, numRows) {
   return mat.join('')
 }
 
-const convert2 = (s, numRows) {
+const convert2 = (s, numRows) => {
   if (numRows === 1 || numRows >= s.length) {
     return s
   }
@@ -43,7 +43,7 @@ const convert2 = (s, numRows) {
       down = !down
     }
 
-    locl += down ? 1 : -1
+    loc += down ? 1 : -1
   }
 
   return res.join('')
