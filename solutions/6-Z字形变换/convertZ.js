@@ -5,7 +5,7 @@
  */
 const convert = function (s, numRows) {
   const len = s.length
-  if (numRows=== 1 || numRows >= len) {
+  if (numRows === 1 || numRows >= len) {
     return s
   }
 
@@ -26,6 +26,26 @@ const convert = function (s, numRows) {
   return mat.join('')
 }
 
-// P   A   H   N
-// A P L S I I G
-// Y   I   R
+const convert2 = (s, numRows) {
+  if (numRows === 1 || numRows >= s.length) {
+    return s
+  }
+
+  const res = new Array(numRows).fill('')
+  const len = s.length
+  let loc = 0
+  let down = false
+
+  for (let i = 0; i < len; i++) {
+    res[loc] += s[i]
+
+    if (loc === 0 || loc === numRows - 1) {
+      down = !down
+    }
+
+    locl += down ? 1 : -1
+  }
+
+  return res.join('')
+
+}
