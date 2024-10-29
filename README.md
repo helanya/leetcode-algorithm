@@ -18,4 +18,3 @@
 | 27 | 移除元素  | [javascript](./solutions/027-移除元素/remove-element.js) | Easy |
 | 28 | 实现 strStr() | [javascript](./solutions/028-实现strStr/str-str.js) | Easy |
 | 35 | 搜索插入位置 | [javascript](./solutions/035-搜索插入位置/search-insert.js) | Easy |
-| 35 | 搜索插入位置 | [javascript](./solutions/061-加一/plusOne.js) | Easy |
