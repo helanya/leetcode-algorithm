@@ -6,7 +6,8 @@
 | 1 | 两数之和  | [javascript](./solutions/001-两数之和/two-sum.js) | Easy |
 | 2 | 两数相加  | [javascript](./solutions/002-两数相加/add-two-numbers.js) | Medium |
 | 3 | 无重复字符的最长子串 | [javascript](./solutions/003-无重复字符的最长子串/length-of-longest-substring.js) | Medium |
-| 5 | 005-最长回文子串  | [javascript](./solutions/005-最长回文子串/solution.js) | Medium |
+| 4 | 两个正序数组的中位数  | [javascript](./solutions/004-需找两个正序数组中的中位数/solution.js) | Hard |
+| 5 | 最长回文子串  | [javascript](./solutions/005-最长回文子串/solution.js) | Medium |
 | 6 | Z字形变换  | [javascript](./solutions/6-Z字形变换/convertZ.js) | Medium |
 | 7 | 整数反转  | [javascript](./solutions/007-整数反转/reverse-integer.js) | Easy |
 | 9 | 回文数  | [javascript](./solutions/009-回文数/palindrome-number.js) | Easy |
